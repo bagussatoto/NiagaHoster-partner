@@ -1,5 +1,5 @@
 === Niagahoster Orderflow ===
-Contributors: andri, anas, taufiq
+Contributors: bagussatoto
 Tags: Niagahoster, order, domain, hosting
 Requires at least: 4.0
 Tested up to: 1.0.9
