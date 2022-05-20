@@ -1,0 +1,55 @@
+.nipa-admin__button-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0; }
+  .nipa-admin__button-wrapper--inline {
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .nipa-admin__button-wrapper--inline > button:not(:last-child) {
+      margin-right: 5px; }
+      @media (min-width: 768px) {
+        .nipa-admin__button-wrapper--inline > button:not(:last-child) {
+          margin-right: 15px; } }
+
+#nipa-wa-support {
+  color: #1b9a59;
+  border-color: #1b9a59; }
+  #nipa-wa-support:focus {
+    box-shadow: 0 0 0 1px #1b9a59; }
+  #nipa-wa-support > .wa-text {
+    margin-left: 20px; }
+  #nipa-wa-support > .wa-icon {
+    position: absolute; }
+    #nipa-wa-support > .wa-icon::before {
+      content: url("../images/whatsapp.svg");
+      cursor: pointer;
+      left: 0;
+      position: absolute;
+      transition: all 0.4s;
+      top: 4.5px;
+      width: 16px;
+      height: 16px; }
+
+.nipa-tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1; }
+  .nipa-tab__links {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px; }
+    .nipa-tab__links:hover {
+      background-color: #ddd; }
+    .nipa-tab__links.active {
+      background-color: #2271b1;
+      color: #fff; }
+  .nipa-tab__content {
+    padding: 6px 12px;
+    border: 0px solid #ccc;
+    border-top: none; }
+
